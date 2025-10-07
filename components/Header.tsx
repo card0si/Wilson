@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -20,7 +21,13 @@ export function Header() {
     <header className="header">
       <div className="container header-inner">
         <Link href="/" className="logo">
-          Wilson Moving &amp; Property Services
+          <Image
+            src="/wilson-logo.svg"
+            alt="Wilson Moving &amp; Property Services logo"
+            width={160}
+            height={40}
+            priority
+          />
         </Link>
         <button
           type="button"
