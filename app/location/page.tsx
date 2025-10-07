@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export const metadata: Metadata = {
   title: "Service Area & Location",
@@ -22,6 +23,7 @@ export default function LocationPage() {
     <>
       <section className="hero">
         <div className="container">
+          <BrandLogo className="hero-logo" />
           <h1>Rooted in Austin, serving Central Texas.</h1>
           <p>
             Our headquarters is centrally located to reach every corner of the Austin metro.

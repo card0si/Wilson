@@ -1,9 +1,11 @@
 import Link from "next/link";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export function Footer() {
   return (
     <footer>
       <div className="container" style={{ textAlign: "center" }}>
+        <BrandLogo size="sm" className="footer-logo" />
         <p style={{ marginBottom: "1rem" }}>
           &copy; {new Date().getFullYear()} Wilson Moving and Property Services. All
           rights reserved.

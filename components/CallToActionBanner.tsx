@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandLogo } from "@/components/BrandLogo";
 
 interface CallToActionBannerProps {
   heading: string;
@@ -50,6 +51,7 @@ export function CallToActionBanner({
             border: "1px solid rgba(243, 201, 139, 0.35)"
           }}
         >
+          <BrandLogo className="cta-logo" />
           <h2 style={{ fontSize: "2.25rem", marginBottom: "1rem" }}>{heading}</h2>
           <p style={{ marginBottom: "2rem" }}>{subheading}</p>
           <div

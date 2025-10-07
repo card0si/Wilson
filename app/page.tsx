@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CallToActionBanner } from "@/components/CallToActionBanner";
+import { BrandLogo } from "@/components/BrandLogo";
 
 const coreServices = [
   {
@@ -35,6 +36,7 @@ export default function HomePage() {
         <div className="container">
           <div className="split">
             <div>
+              <BrandLogo size="lg" className="hero-logo" priority />
               <span className="tag">Austin, Texas</span>
               <h1>Moving in Austin made effortless.</h1>
               <p>

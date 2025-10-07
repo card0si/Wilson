@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { CallToActionBanner } from "@/components/CallToActionBanner";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export const metadata: Metadata = {
   title: "Customer Reviews",
@@ -40,6 +41,7 @@ export default function CustomerReviewsPage() {
     <>
       <section className="hero">
         <div className="container">
+          <BrandLogo className="hero-logo" />
           <h1>What our clients say.</h1>
           <p>
             Our reputation is built on dependable service and attentive crews. Here’s how

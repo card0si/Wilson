@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { CallToActionBanner } from "@/components/CallToActionBanner";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export const metadata: Metadata = {
   title: "About Wilson Moving and Property Services",
@@ -30,6 +31,7 @@ export default function AboutPage() {
     <>
       <section className="hero">
         <div className="container">
+          <BrandLogo className="hero-logo" />
           <h1>Local movers with a reputation for excellence.</h1>
           <p>
             Founded in East Austin, Wilson Moving and Property Services grew from a single

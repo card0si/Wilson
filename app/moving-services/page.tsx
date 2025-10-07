@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import { CallToActionBanner } from "@/components/CallToActionBanner";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export const metadata: Metadata = {
   title: "Moving Services in Austin",
@@ -56,6 +57,7 @@ export default function MovingServicesPage() {
     <>
       <section className="hero">
         <div className="container">
+          <BrandLogo className="hero-logo" />
           <h1>Premium moving services crafted for Austin.</h1>
           <p>
             From downtown high-rises to Hill Country estates, Wilson Moving and Property

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { BrandLogo } from "@/components/BrandLogo";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,8 +20,19 @@ export function Header() {
   return (
     <header className="header">
       <div className="container header-inner">
-        <Link href="/" className="logo">
-          Wilson Moving &amp; Property Services
+        <Link
+          href="/"
+          className="logo"
+          aria-label="Wilson Moving & Property Services home"
+        >
+          <BrandLogo
+            size="sm"
+            className="logo-mark"
+            priority
+            alt=""
+            aria-hidden
+          />
+          <span className="logo-text">Wilson Moving &amp; Property Services</span>
         </Link>
         <button
           type="button"
@@ -36,10 +48,7 @@ export function Header() {
           <ul id={navId} className={isMenuOpen ? "is-open" : undefined}>
             {links.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                >
+                <Link href={link.href} onClick={() => setMenuOpen(false)}>
                   {link.label}
                 </Link>
               </li>

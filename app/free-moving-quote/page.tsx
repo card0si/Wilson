@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export const metadata: Metadata = {
   title: "Free Moving Quote",
@@ -10,6 +11,7 @@ export default function FreeMovingQuotePage() {
   return (
     <section className="hero">
       <div className="container">
+        <BrandLogo className="hero-logo" />
         <h1>Request your free moving quote.</h1>
         <p>
           Share the details of your upcoming move and our coordinators will reach out within
