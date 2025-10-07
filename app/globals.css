@@ -190,17 +190,25 @@ footer a {
   color: var(--muted);
 }
 
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: none;
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
 }
 
-nav ul.is-open {
+.header nav ul {
+  display: none;
+}
+
+.header nav ul.is-open {
   display: flex;
 }
 
@@ -276,7 +284,7 @@ p {
     gap: 1rem;
   }
 
-  nav ul {
+  .header nav ul {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -288,7 +296,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  nav ul {
+  .header nav ul {
     display: flex !important;
   }
 
