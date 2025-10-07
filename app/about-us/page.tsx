@@ -32,9 +32,10 @@ export default function AboutPage() {
         <div className="container">
           <h1>Local movers with a reputation for excellence.</h1>
           <p>
-            Founded in East Austin, Wilson Moving and Property Services grew from a single
-            truck to a fleet serving the Greater Austin area. Our mission is to provide the
-            most dependable, courteous moving experience in Texas.
+            Founded by Cameron Wilson in East Austin, Wilson Moving and Property Services
+            grew from a single truck to a fleet serving the Greater Austin area. Our
+            mission is to provide the most dependable, courteous moving experience in
+            Texas.
           </p>
         </div>
       </section>
@@ -44,25 +45,31 @@ export default function AboutPage() {
           <div className="card" style={{ padding: "2.5rem" }}>
             <h2>Our story</h2>
             <p>
-              Wilson Moving began in 2013 when founder Marcus Wilson saw a need for movers
-              who respected both timelines and property. Today, our licensed and insured team
-              of coordinators, drivers, and moving specialists completes over 1,200 moves each
-              year across Austin, Round Rock, Cedar Park, and beyond.
+              Wilson Moving began in 2013 when Cameron Wilson started helping neighbors move
+              with a focus on treating every home like his own. What started as weekend jobs
+              quickly became a trusted local service for families and businesses across
+              Austin, Round Rock, Cedar Park, and beyond.
             </p>
             <p>
-              We invest in ongoing training, background checks, and state-of-the-art moving
-              gear to ensure your belongings and property are safe at every turn. The result?
+              Today, a carefully chosen crew carries that same neighborhood spirit to every
+              move. We invest in ongoing training, background checks, and state-of-the-art
+              moving gear so your belongings and property are safe at every turn. The result?
               Loyal clients who refer us to friends and family again and again.
             </p>
           </div>
           <div className="card" style={{ padding: "2.5rem" }}>
-            <h2>Leadership team</h2>
-            <ul className="list">
-              <li>Marcus Wilson, Founder &amp; CEO</li>
-              <li>Samantha Lee, Director of Operations</li>
-              <li>Jordan Martinez, Senior Move Coordinator</li>
-              <li>Kayla Chen, Commercial Services Manager</li>
-            </ul>
+            <h2>How we work</h2>
+            <p>
+              Every project is coordinated directly by Cameron, ensuring each client has a
+              single point of contact from planning through delivery. Whether it’s a
+              residential move or a commercial relocation, we build a plan around your
+              schedule, communicate proactively, and keep quality at the forefront.
+            </p>
+            <p>
+              Our crews are small, experienced, and local. That allows us to stay flexible,
+              offer honest timelines, and deliver the dependable service people recommend to
+              their own friends.
+            </p>
           </div>
         </div>
       </section>
