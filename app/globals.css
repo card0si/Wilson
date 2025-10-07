@@ -194,13 +194,19 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
 }
 
-nav ul.is-open {
+.header nav ul {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header nav ul.is-open {
   display: flex;
 }
 
@@ -337,9 +343,7 @@ p {
     gap: 1rem;
   }
 
-  nav ul {
-    width: 100%;
-    flex-direction: column;
+  .header nav ul {
     justify-content: center;
   }
 
@@ -349,8 +353,10 @@ p {
 }
 
 @media (min-width: 768px) {
-  nav ul {
+  .header nav ul {
     display: flex !important;
+    flex-direction: row;
+    width: auto;
   }
 
   .nav-toggle {
