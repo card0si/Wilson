@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="80" rx="16" fill="#0B0B0B"/>
+  <path d="M46.5 20L57.6 60H49.7L43.4 34.8L37 60H29.2L19.8 20H27.9L33.6 48.5L39.5 20H47.4L53.3 48.4L58.9 20H66.7L57.3 60H49.4L46.5 20Z" fill="#F3C98B"/>
+  <path d="M98.5 20L109.6 60H101.7L95.4 34.8L89 60H81.2L71.8 20H79.9L85.6 48.5L91.5 20H99.4L105.3 48.4L110.9 20H118.7L109.3 60H101.4L98.5 20Z" fill="#D8B27C"/>
+  <path d="M140.5 20L151.6 60H143.7L137.4 34.8L131 60H123.2L113.8 20H121.9L127.6 48.5L133.5 20H141.4L147.3 48.4L152.9 20H160.7L151.3 60H143.4L140.5 20Z" fill="#F3C98B"/>
+  <text x="180" y="36" fill="#F8F5EF" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="600" letter-spacing="0.2em">WILSON</text>
+  <text x="180" y="58" fill="#D8B27C" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" letter-spacing="0.35em">MOVING • PROPERTY</text>
+</svg>
